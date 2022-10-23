@@ -6,9 +6,9 @@ from requests_toolbelt import MultipartEncoder
 from .errors import *
 from .converter import convert_html_to_telegraph_format, convert_json_to_html
 
-base_url = 'http://dgraph.org'
-save_url = 'https://edit.dgraph.org/save'
-api_url = 'https://api.dgraph.org'
+base_url = 'http://graph.org'
+save_url = 'https://edit.graph.org/save'
+api_url = 'https://api.graph.org'
 default_user_agent = 'Python_dgraph_poster/0.1'
 
 
@@ -39,7 +39,7 @@ def _upload(title, author, text,
         'Content-Type': m.content_type,
         'Accept': 'application/json, text/javascript, */*; q=0.01',
         'User-Agent': user_agent,
-        'Origin': 'http://dgraph.org'
+        'Origin': 'http://graph.org'
     }
     with requests.Session() as r:
         r.mount('https://', requests.adapters.HTTPAdapter(max_retries=3))
