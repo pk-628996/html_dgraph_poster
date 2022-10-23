@@ -13,7 +13,7 @@ setup(name='html-dgraph-poster',
       author='Garry G',
       author_email='mercuree.lab@gmail.com',
       license='MIT',
-      packages=['html_telegraph_poster'],
+      packages=['html_dgraph_poster'],
       install_requires=['lxml', 'requests', 'requests_toolbelt'],
       classifiers=['Operating System :: OS Independent', 'Programming Language :: Python :: 3',
                    'License :: OSI Approved :: MIT License']
