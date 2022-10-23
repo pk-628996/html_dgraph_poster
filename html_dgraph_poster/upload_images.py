@@ -3,9 +3,9 @@ import re
 import requests
 
 from io import BytesIO
-base_url = 'http://dgraph.org'
-save_url = 'https://edit.dgraph.org/save'
-upload_file_url = 'https://dgraph.org/upload'
+base_url = 'http://graph.org'
+save_url = 'https://edit.graph.org/save'
+upload_file_url = 'https://graph.org/upload'
 
 
 class Error(Exception):
