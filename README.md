@@ -1,13 +1,13 @@
 [![build](https://github.com/mercuree/html-telegraph-poster/actions/workflows/python-package.yml/badge.svg)](https://github.com/mercuree/html-telegraph-poster/actions/workflows/python-package.yml)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/html-telegraph-poster?master)](https://pypi.org/project/html-telegraph-poster/)
 
-# Python html to telegra.ph poster
+# Python html to graph.org poster
 
-Simple python function to post plain html text to https://telegra.ph/.
+Simple python function to post plain html text to https://graph.org/.
 Telegra.ph allows `<a>, <blockquote>, <br>, <em>, <figure>, <h3>, <h4>, <img>, <p>, <strong>, ` elements.
 It also supports embedded youtube and vimeo iframe tags.
 
-About telegram telegra.ph service https://telegram.org/blog/instant-view
+About telegram telegra.ph service https://telegram.org/blog /instant-view
 
 ## Requirements
 * lxml
